@@ -9,7 +9,10 @@ import org.springframework.stereotype.Repository;
 public class ProductRepositoryAdapter implements ProductRepository {
 
     @Override
-    public Product saveProduct(ProductDTO productDTO) {
+    public Product saveProduct(Product product) {
+        //Convertir en DBO
+
+        //Convertir de DBO a Product
         return null;
     }
 }

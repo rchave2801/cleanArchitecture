@@ -11,6 +11,9 @@ public class ProductUseCase {
     }
 
     public ProductDTO saveProduct(ProductDTO producDTO){
+        //Convertir en producto
+
         return productRepository.saveProduct(producDTO);
+        //Convertir Product a DTO
     }
 }

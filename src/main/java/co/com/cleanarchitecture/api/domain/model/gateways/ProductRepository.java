@@ -5,5 +5,5 @@ import co.com.cleanarchitecture.api.domain.model.product.dto.ProductDTO;
 
 public interface ProductRepository {
 
-    public Product saveProduct(ProductDTO productDTO);
+    public Product saveProduct(Product product);
 }
