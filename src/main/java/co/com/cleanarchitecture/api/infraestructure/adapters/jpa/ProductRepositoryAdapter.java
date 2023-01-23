@@ -3,8 +3,10 @@ package co.com.cleanarchitecture.api.infraestructure.adapters.jpa;
 import co.com.cleanarchitecture.api.domain.model.gateways.ProductRepository;
 import co.com.cleanarchitecture.api.domain.model.product.Product;
 import co.com.cleanarchitecture.api.domain.model.product.dto.ProductDTO;
+import org.springframework.stereotype.Repository;
 
-public class ProductReposirotyAdapter implements ProductRepository {
+@Repository
+public class ProductRepositoryAdapter implements ProductRepository {
 
     @Override
     public Product saveProduct(ProductDTO productDTO) {
